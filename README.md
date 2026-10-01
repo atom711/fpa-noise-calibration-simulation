@@ -5,8 +5,6 @@
 ## Technical Project Overview
 Provided here is a simple Python script designed to simulate non-ideal hardware limitations of physical digital camera sensors (Focal Plane Arrays) and apply radiometric calibration metrics to guarantee data correction and integrity. 
 
-This can be used as a Hardware-in-the-Loop (HWIL) verification tool, modeling how front-end physical detector noise impacts downstream image processing blocks before firmware code execution.
-
 ## Modeled Sensor Physics & Defect Mechanics
 
 1. **Dark Current Offset:** Simulates thermal baseline electron drift generated within the silicon matrix, modeled via a uniform matrix bias.
