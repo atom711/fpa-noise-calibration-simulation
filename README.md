@@ -3,7 +3,7 @@
 ![FPA Sensor Calibration Dashboard](fpa_noise_calibration_sim_plot.png)
 
 ## Technical Project Overview
-Provided here is a simple Python script designed to simulate non-ideal hardware limitations of physical digital camera sensors (Focal Plane Arrays) and apply radiometric calibration metrics to guarantee data correction and integrity. 
+Provided here is a simple Python script designed to simulate non-ideal hardware limitations of FPAs and apply radiometric calibration metrics to guarantee data correction and integrity. 
 
 ## Modeled Sensor Physics & Defect Mechanics
 
