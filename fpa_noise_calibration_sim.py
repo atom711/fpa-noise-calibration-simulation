@@ -84,8 +84,8 @@ def apply_dead_pixel_replacement(calibrated_frame, bad_pixel_mask):
                 
     return dpr_frame
 
+
 # =====================================================================
-# DATA PIPELINE EXECUTION
 # =====================================================================
 width, height = 512, 512
 ideal_wavefront = generate_synthetic_sensor_frame(width, height, signal_level=120)
@@ -104,8 +104,8 @@ calibrated_image = execute_flat_field_calibration(raw_camera_output, dark_frame_
 # 4. Run DPR using our dedicated pristine mask coordinates
 pristine_final_image = apply_dead_pixel_replacement(calibrated_image, bad_pixel_mask)
 
+
 # =====================================================================
-# AUTOMATED CORRECTED GRAPH DASHBOARD PLOT ENGINE
 # =====================================================================
 fig, axes = plt.subplots(2, 2, figsize=(10, 10))
 fig.suptitle("Electro-Optical (EO) FPA Sensor Calibration Dashboard", fontsize=14, fontweight='bold')
